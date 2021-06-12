@@ -44,4 +44,3 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && v:this_session == '' | NERDTree | endif
 set number
 set relativenumber
-set backspace = indent,eol,start
